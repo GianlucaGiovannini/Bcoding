@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+/*     TAG PRINCIPALI     */
+
+body {
+  background: url(img/background.jpg) no-repeat center top fixed;
+  background-size: cover;
+  font-family: 'Karla', sans-serif;
+}
+
+header {
+  text-align: center;
+  line-height: 3px;
+  color: #00dd00;
+  margin: 0;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+section {
+  margin-bottom: 5px;
+}
+section h2 {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+section div {
+  font-size: 13px;
+}
+
+/*     CLASSI     */
+.container {
+  width: 60%;
+  margin: 2% auto;
+  padding: 4% 5% 6%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 15px;
+}
+
+.backgroundbutton {
+  width: 100%;
+  padding: 10px;
+  background-color: #00dd00;
+}
+
+.backgroundbutton {
+  margin: 0px 2px;
+  font-size: 12px;
+}
+
+/*     CLASSI CARICA MONOPATTINI     */
+.mezzacarica {
+  width: 35%;
+  height: 25px;
+  background-color: #f5b453;
+  border-radius: 4px;
+}
+
+.carico {
+  width: 55%;
+  height: 25px;
+  background-color: #1ec31e;
+  border-radius: 4px;
+}
+
+.scarico {
+  width: 16%;
+  height: 25px;
+  background-color: #be4141;
+  border-radius: 4px;
+}
